@@ -1,0 +1,449 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+  "name": "Blade Runner 2049",
+  "author": "David C Cavalcante",
+  "themes": [
+    {
+      "name": "Blade Runner 2049 Dark User Imput",
+      "appearance": "dark",
+      "style": {
+        // Base colors and borders
+        "border": "#02594033",
+        "border.disabled": "#001F1FD0",
+        "border.focused": "#00FFE577",
+        "border.selected": "#00FFE5bb",
+        "border.transparent": "#00000000",
+        "border.variant": "#00FFE525",
+
+        // Surfaces
+        "background": "#062A4050",
+        "elevated_surface.background": "#002929FF",
+        "surface.background": "#242631ee",
+
+        // Elements
+        "element.active": "#796595FF",
+        "element.background": "#001A1AFF",
+        "element.disabled": "#e9dbfdFF",
+        "element.hover": "#002929FF",
+        "element.selected": "#002929FF",
+
+        // Ghost elements
+        "drop_target.background": "#002929FF",
+        "ghost_element.active": "#00FFE550",
+        "ghost_element.background": "#062A4000",
+        "ghost_element.disabled": "#FFD700FF",
+        "ghost_element.hover": "#00FFE535",
+        "ghost_element.selected": "#00FFE525",
+
+        // Text
+        "text.accent": "#00FFE5FF",
+        "text.disabled": "#00FFE550",
+        "text.muted": "#7FFFF2FF",
+        "text.placeholder": "#00FFE580",
+        "text": "#FFE5B4FF",
+
+        // Icons
+        "icon.accent": null,
+        "icon.disabled": null,
+        "icon.muted": null,
+        "icon.placeholder": null,
+        "icon": null,
+
+        // Bars
+        "status_bar.background": "#001A1Abb",
+        "tab.active_background": "#001F1FFf",
+        "tab_bar.background": "#001A1Abb",
+        "tab.inactive_background": "#001A1Abb",
+        "title_bar.background": "#001A1Abb",
+        "title_bar.inactive_background": "#001A1AFF",
+        "toolbar.background": "#001F1FFf",
+
+        // Search and panels
+        "panel.background": "#001A1AFF",
+        "panel.focused_border": null,
+        "pane.focused_border": null,
+        "search.match_background": "#1AFFA350",
+
+        // Scrollbar
+        "scrollbar.thumb.background": "#00FFE577",
+        "scrollbar.thumb.border": "#00000000",
+        "scrollbar.thumb.hover_background": "#00FFE5FF",
+        "scrollbar.track.background": "#001A1AFF",
+        "scrollbar.track.border": "#02594033",
+
+        // Main editor
+        "editor.active_line.background": "#05F2AF33",
+        "editor.active_line_number": "#05F2AFFF",
+        "editor.background": "#001F1FFf",
+        "editor.document_highlight.read_background": "#00FFE540",
+        "editor.document_highlight.write_background": "#002929FF",
+        "editor.foreground": "#FFE5B4FF",
+        "editor.gutter.background": "#001F1FFf",
+        "editor.highlighted_line.background": "#002929FF",
+        "editor.invisible": "#FFE5B430",
+        "editor.line_number": "#FFE5B450",
+        "editor.subheader.background": "#002929FF",
+        "editor.wrap_guide": "#FFE5B428",
+        "editor.active_wrap_guide": "#00FFB765",
+
+        // Terminal
+        "terminal.background": "#062A40FF",
+        "terminal.bright_foreground": "#00FFE5FF",
+        "terminal.dim_foreground": "#001A1AFF",
+        "terminal.foreground": "#05F283FF",
+
+        // Terminal ANSI colors
+        "terminal.ansi.bright_black": "#919cbFFf",
+        "terminal.ansi.bright_blue": "#D6ACFFFF",
+        "terminal.ansi.bright_cyan": "#A4FFFFFF",
+        "terminal.ansi.bright_green": "#69FF94FF",
+        "terminal.ansi.bright_magenta": "#FF92DFFf",
+        "terminal.ansi.bright_red": "#FF6E6EFF",
+        "terminal.ansi.bright_white": "FFFFFFFF",
+        "terminal.ansi.bright_yellow": "#FFFFA5FF",
+        "terminal.ansi.dim_black": "#1a1b23FF",
+        "terminal.ansi.dim_blue": "#7766ccFF",
+        "terminal.ansi.dim_cyan": "#6fbacaFF",
+        "terminal.ansi.dim_green": "#40c862FF",
+        "terminal.ansi.dim_magenta": "#cc619eFF",
+        "terminal.ansi.dim_red": "#cc4444FF",
+        "terminal.ansi.dim_white": "#c6c6c2FF",
+        "terminal.ansi.dim_yellow": "#c1c870FF",
+        "terminal.ansi.black": "#21222cFF",
+        "terminal.ansi.blue": "#9580FFFF",
+        "terminal.ansi.cyan": "#4DFFBDFF",
+        "terminal.ansi.green": "#1AFFA3FF",
+        "terminal.ansi.magenta": "#00CC99FF",
+        "terminal.ansi.red": "#FFD700FF",
+        "terminal.ansi.white": "#FFE5B4FF",
+        "terminal.ansi.yellow": "#FFDAB9FF",
+
+        // Links and conflicts
+        "conflict": "#dec184FF",
+        "conflict.background": "#dec18433",
+        "conflict.border": "#5d4c2FFf",
+        "link_text.hover": "#4DFFBDFF",
+
+        // File status
+        "created": "#73fb95FF",
+        "created.background": "#222e1dFF",
+        "created.border": "#38482FFf",
+        "deleted": "#FFD700FF",
+        "deleted.background": "#301b1bFF",
+        "deleted.border": "#4c2b2cFF",
+        "modified": "#a2edfdFF",
+        "modified.background": null,
+        "modified.border": null,
+        "renamed": null,
+        "renamed.background": "#242631ee",
+        "renamed.border": null,
+
+        // Messages
+        "error": "#05F283FF",
+        "error.background": "#062A40ee",
+        "error.border": "#05F283FF",
+        "info": "#73ece5FF",
+        "info.background": "#242631ee",
+        "info.border": "#73ece5FF",
+        "success": "#79e96dFF",
+        "success.background": "#242631ee",
+        "success.border": "#79e96dFF",
+        "warning": "#e6e373FF",
+        "warning.background": "#242631ee",
+        "warning.border": "#e6e373FF",
+
+        // States and indicators
+        "hidden": "#414754FF",
+        "hidden.background": "#242631ee",
+        "hidden.border": "#414754FF",
+        "hint": "#406060FF",
+        "hint.background": null,
+        "hint.border": null,
+        "ignored": "#00FFE550",
+        "ignored.background": "#002929FF",
+        "ignored.border": null,
+        "predictive": "#c6c6c2FF",
+        "predictive.background": null,
+        "predictive.border": null,
+        "unreachable": null,
+        "unreachable.background": "#0029291A",
+        "unreachable.border": null,
+
+        // Players
+        "players": [
+          {
+            "cursor": "#00FFB7FF",
+            "background": "#00FFB7FF",
+            "selection": "#00FFB733"
+          },
+          {
+            "cursor": "#1AFFA3FF",
+            "background": "#1AFFA3FF",
+            "selection": "#1AFFA333"
+          },
+          {
+            "cursor": "#00CC99FF",
+            "background": "#00CC99FF",
+            "selection": "#00CC9933"
+          },
+          {
+            "cursor": "#FFDAB9FF",
+            "background": "#FFDAB9FF",
+            "selection": "#FFDAB933"
+          },
+          {
+            "cursor": "#4DFFBDFF",
+            "background": "#4DFFBDFF",
+            "selection": "#4DFFBD33"
+          },
+          {
+            "cursor": "#FFB74DFF",
+            "background": "#FFB74DFF",
+            "selection": "#FFB74D33"
+          },
+          {
+            "cursor": "#FFD700FF",
+            "background": "#FFD700FF",
+            "selection": "#FFD70033"
+          }
+        ],
+
+        // Syntax highlighting
+        "syntax": {
+          "attribute": {
+            // Was greenish, now light blue/cyan
+            "color": "#9CDCFE",
+            "font_style": null,
+            "font_weight": null
+          },
+          "boolean": {
+            // Was greenish, now blue like keywords
+            "color": "#569CD6",
+            "font_style": null,
+            "font_weight": null
+          },
+          "comment": {
+            // Was bright green, now muted gray-green
+            "color": "#6A9955",
+            "font_style": "italic", // Comments often italicized
+            "font_weight": null
+          },
+          "comment.doc": {
+            // Was greenish, keep distinct (using comment color)
+            "color": "#6A9955",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "constant": {
+            // Was cyan, keep similar (light blue)
+            "color": "#9CDCFE", // Or use #B5CEA8 (VSCode green constant) if preferred
+            "font_style": null,
+            "font_weight": null
+          },
+          "constructor": {
+            // Was greenish, now cyan/teal like types
+            "color": "#4EC9B0",
+            "font_style": null,
+            "font_weight": null
+          },
+          "embedded": {
+            // Keep as base text color
+            "color": "#FFE5B4FF",
+            "font_style": null,
+            "font_weight": null
+          },
+          "emphasis": {
+            // Keep peach/orange for italic
+            "color": "#FFDAB9FF",
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "emphasis.strong": {
+            // Keep orange for bold
+            "color": "#FFB74DFF",
+            "font_style": null,
+            "font_weight": 700
+          },
+          "enum": {
+            // Was cyan, use teal like types
+            "color": "#4EC9B0",
+            "font_style": null,
+            "font_weight": null
+          },
+          "function": {
+            // Was bright green, now yellow
+            "color": "#DCDCAA",
+            "font_style": null,
+            "font_weight": null // Removed bolding, function names often aren't bold
+          },
+          "hint": {
+            // Was cyan, keep as is
+            "color": "#00FFB7FF",
+            "font_style": null,
+            "font_weight": 700
+          },
+          "keyword": {
+            // Was greenish, now blue
+            "color": "#569CD6", // Common keyword blue
+            "font_style": null,
+            "font_weight": null
+          },
+          "label": {
+            // Keep as base text color
+            "color": "#FFE5B4FF",
+            "font_style": null,
+            "font_weight": null
+          },
+          "link_text": {
+            // Was greenish, use a standard link blue/cyan
+            "color": "#4DFFBDFF", // Keep original link uri color
+            "font_style": "normal",
+            "font_weight": null
+          },
+          "link_uri": {
+            // Keep distinct cyan
+            "color": "#4DFFBDFF",
+            "font_style": "italic", // Often underlined or italic
+            "font_weight": null
+          },
+          "number": {
+            // Was cyan, now greenish (common for numbers)
+            "color": "#B5CEA8",
+            "font_style": null,
+            "font_weight": null
+          },
+          "operator": {
+            // Was greenish, now closer to base text (slightly brighter)
+            "color": "#D4D4D4",
+            "font_style": null,
+            "font_weight": null
+          },
+          "predictive": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "preproc": {
+            // Keep original dim color
+            "color": "#406060FF",
+            "font_style": null,
+            "font_weight": null
+          },
+          "primary": {
+            "color": null,
+            "font_style": null,
+            "font_weight": null
+          },
+          "property": {
+            // Was light cyan, now light blue/cyan (consistent with attribute)
+            "color": "#9CDCFE",
+            "font_style": null,
+            "font_weight": null // Removed bolding
+          },
+          "punctuation": {
+            // Was greenish, now same as operator (subtle)
+            "color": "#D4D4D4",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation.bracket": {
+            // Keep as base text color (good for readability)
+            "color": "#FFE5B4FF",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation.delimiter": {
+            // Was greenish, now same as operator (subtle)
+            "color": "#D4D4D4",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation.list_marker": {
+            // Was light cyan, keep distinct
+            "color": "#4DFFBDFF",
+            "font_style": null,
+            "font_weight": null
+          },
+          "punctuation.special": {
+            // Was greenish, now same as operator
+            "color": "#D4D4D4",
+            "font_style": null,
+            "font_weight": null
+          },
+          "string": {
+            // Keep peach/light orange (common string color)
+            "color": "#FFDAB9FF", // Similar to VS Code's #CE9178
+            "font_style": null,
+            "font_weight": null // Removed specific weight
+          },
+          "string.escape": {
+            // Was greenish, now light blue (stands out in strings)
+            "color": "#9CDCFE",
+            "font_style": null,
+            "font_weight": null
+          },
+          "string.regex": {
+            // Keep yellow/gold (common regex color)
+            "color": "#FFD700FF",
+            "font_style": null,
+            "font_weight": null
+          },
+          "string.special": {
+            // Was greenish, use a distinct color like magenta
+            "color": "#C586C0", // For things like interpolation markers
+            "font_style": null,
+            "font_weight": null
+          },
+          "string.special.symbol": {
+            // Was cyan, keep cyan
+            "color": "#00FFB7FF",
+            "font_style": null,
+            "font_weight": null
+          },
+          "tag": {
+            // Was greenish, now blue like keywords (common for HTML/XML)
+            "color": "#569CD6",
+            "font_style": null,
+            "font_weight": null
+          },
+          "text.literal": {
+            // Was bright green, use string color
+            "color": "#FFDAB9FF",
+            "font_style": null,
+            "font_weight": null
+          },
+          "title": {
+            // Was cyan, use Yellow like functions (often class names or titles)
+            "color": "#DCDCAA",
+            "font_style": null,
+            "font_weight": 600
+          },
+          "type": {
+            // Was light cyan, now distinct teal
+            "color": "#4EC9B0", // Common type teal
+            "font_style": null,
+            "font_weight": null
+          },
+          "variable": {
+            // Keep as base text color
+            "color": "#FFE5B4FF",
+            "font_style": null,
+            "font_weight": null
+          },
+          "variable.special": {
+            // Was cyan, now use an orange/peach (like `this`, `self`)
+            "color": "#FFB74DFF", // Original emphasis.strong color
+            "font_style": "italic",
+            "font_weight": null
+          },
+          "variant": {
+            // Was cyan, now use teal like types/enums
+            "color": "#4EC9B0",
+            "font_style": null,
+            "font_weight": null
+          }
+        }
+      }
+    }
+  ]
+}
